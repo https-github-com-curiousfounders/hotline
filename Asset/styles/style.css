@@ -47,28 +47,21 @@ a{
     #desktopHead{
         display: none;
     }
-      #help h3{
-          display: none;
-      }
+    #help{
+        position: relative;
+        border-style: solid;
+        border-color: white;
+        border-width: 2px;
+        background-color:#202020;
+        color:white; 
+        height: auto;
+        margin-left:auto;
+        margin-right: auto;
+    }
       #image-help{
           padding-top: 20px;
       }
-      .optional{
-          border-style: solid;
-          border-width: 2px;
-          border-color: white;
-          background-color: #202020;
-      }
-      .optional h4{
-          color:white;
-          font-size: 30px;
-          font-weight: 800;
-          background-color: #202020;
-      }
-      .optional p{
-          color:white;
-          background-color: #202020;
-      }
+      
     #service-container{
         background-color: #414040;
         padding-top: 10px;
@@ -227,28 +220,10 @@ a{
         margin-left:auto;
         margin-right: auto;
     }
-    #help h3{
-        display: none;
-    }
     #image-help{
         padding-top: 10px;
     }
-    .optional{
-        border-style: solid;
-        border-width: 2px;
-        border-color: white;
-        background-color: #202020;
-    }
-    .optional h4{
-        color:white;
-        font-size: 30px;
-        font-weight: 800;
-        background-color: #202020;
-    }
-    .optional p{
-        color:white;
-        background-color: #202020;
-    }
+
 
     #service-container{
         background-color: #414040;
@@ -392,9 +367,7 @@ a{
         margin-left: auto;
         padding-top:40px;
     }
-    .optional{
-        display: none;
-    }
+
     #mobileHead{
         display:none;
     }
@@ -581,9 +554,7 @@ a{
     #image-help{
         margin-right: auto;
     }
-    .optional{
-        display: none;
-    }
+
     #service-container{
         background-color: #414040;
         padding-top: 50px;
@@ -771,9 +742,7 @@ a{
     #image-help{
      margin-right: auto;
     }
-    .optional{
-        display: none;
-    }
+    
     #service-container{
        background-color: #414040;
        padding-top: 50px;
