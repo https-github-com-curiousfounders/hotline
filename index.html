@@ -88,7 +88,8 @@
 <!-- navbar ends here -->
      <!--hero section  -->
     <div id="heroContainer"class="container text-center">
-        <h1 class="display-2" style="color:white;font-weight: 800;">24/7 Call Answerinng Serivce</h1>
+        <h1 id="desktopHead"class="display-2" style="color:white;font-weight: 800;">24/7 Call Answering Serivce</h1>
+        <h1 id="mobileHead"class="display-2" style="color:white;font-weight: 800;">we are Hotlines</h1>
         <h1 class="display-2" style="background-color: rgb(255,117,195);
         background-image: linear-gradient(90deg, rgba(255,117,195,1) 0%, rgba(255,166,71,1) 20%, rgba(255,232,63,1) 40%, rgba(159,255,91,1) 60%, rgba(205,147,255,1) 80%, rgba(112,226,255,1) 100%);;color:#202020;font-weight: 800;">The Tesla for Customer Support</h1>
         <img class="img-fluid" src="/Asset/images/hero.png"/>
@@ -158,14 +159,14 @@
               <div id="contact-us" >
                   <h2 id="contact-head" >Contact Us</h2>
               </div>
-              <form action="mailto:support@joinhotlines.com" method="get" target="_blank" style="background-color: #414040;">
+              <form action="mailto:support@joinhotlines.com" method="get" target="_blank" enctype="text/plain" style="background-color: #414040;">
               <div id="contact-us-form" class="container" >
                 <div class="row" style="margin-top: 50px;">
                     <div class="col-lg-4" id="input-box">
-                        <input type="text" placeholder="First name" style="border-radius: 0px;background-color: black;color:white">
+                        <input type="text" name="name" id="name" placeholder="First name" style="border-radius: 0px;background-color: black;color:white">
                     </div>
                     <div class="col-lg-4" id="input-box">
-                        <input type="text" placeholder="Email Address" style="border-radius: 0px;background-color: black;color:white">
+                        <input type="text" name="email" id="email" placeholder="Email Address" style="border-radius: 0px;background-color: black;color:white">
                     </div>
                     <div class="col-lg-4" id="input-box">
                         <input type="text" placeholder="Phone(optional)" style="border-radius: 0px;background-color: black;color:white">
@@ -173,7 +174,7 @@
                 </div>
                 <div class="row" style="margin-top:20px;">
                     <div class="col-md-12" id="text-box">
-                        <textarea style="resize: both;width:100%;border-radius: 0px;background-color:black;color:white" placeholder="Message" id=body></textarea>
+                        <textarea style="resize: both;width:100%;border-radius: 0px;background-color:black;color:white" placeholder="Message" id="body" name="body"></textarea>
                     </div>
                 </div> 
               </div>
