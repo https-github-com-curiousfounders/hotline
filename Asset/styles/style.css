@@ -44,9 +44,7 @@ a{
       .nav.mx-auto{
         padding-left: 50px;
     }
-    #desktopHead{
-        display: none;
-    }
+
     #help{
         position: relative;
         border-style: solid;
@@ -204,9 +202,7 @@ a{
       .nav.mx-auto{
           padding-left: 100px;
       }
-      #mobileHead{
-        display:none;
-    }
+ 
     #help{
         position: relative;
         border-style: solid;
@@ -368,9 +364,7 @@ a{
         padding-top:40px;
     }
 
-    #mobileHead{
-        display:none;
-    }
+  
     #subhero{
         padding-right: 40px;
     }
@@ -536,9 +530,7 @@ a{
     .nav.mx-auto{
         display: none;
     }
-    #mobileHead{
-        display:none;
-    }
+   
     #help{
         font-weight: 800;
         border-style: solid;
@@ -724,9 +716,7 @@ a{
     .nav.mx-auto{
         display: none;
     }
-    #mobileHead{
-        display:none;
-    }
+   
     #help{
         font-weight: 800;
         border-style: solid;
